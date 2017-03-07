@@ -6,6 +6,7 @@
 - Połączenie przez telnet z terminal access serverem (ip na żółto) na odpwiednim porcie:
     - JetStream	- port = numer gniazda
     - CISCO 	- port = 2000 + numer gniazda
+
 ## Port zablokowany
 Jeśli port terminal access servera, z którym chcemy się połączyć jest zablokowany łączymy się telnetem na porcie 23 i killujemy zajętą linię.
 
@@ -32,7 +33,7 @@ Alternatywnie dla JetStream jest dostępny interfejs www.
 ## Tryb konfiguracji Switch(conf)
 
 - `do <polecenie>`   
-    `Switch(config)# do show ip interface brief`
+    `Switch(config)# do show ip interface brief` = `Switch# show ip interface brief`
 - `interface vlan<numer>`   
 - `ip address <adres interfejsu> <maska>`
 - `[no ]shutdown`
