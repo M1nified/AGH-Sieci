@@ -48,12 +48,12 @@ Alternatywnie dla JetStream jest dostępny interfejs www.
 
 # Światłowody
 
-## Jednowodowe
+## Jednomodowe
 
 - żółte (lab)
 - jedna wiązka światła
 
-## Wielowodowe
+## Wielomodowe
 
 - pomarańczowe (lab)
 - wiązki światła pod różnym kątem, wiele jednocześnie, więc większa przepustowość
