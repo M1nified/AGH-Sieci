@@ -7,7 +7,7 @@
 Uruchomienie systemu z pierwszego dostępnego obrazu w pamięci FLASH, polecenie:
 
 ```shell
-reset
+rommon> reset
 ```
 
 z innego obrazu:
@@ -24,3 +24,19 @@ gdzie `slot0` lub `disk0` to gniazda kart pamięci (jeśli są obecne w ruterze)
 
 - `slot0` - linear FLASH
 - `disk0` - ATA FLASH z FAT
+
+### Karetka `CLI`
+
+Przejście to trybu uprzywilejowanego `exec`
+
+```shell
+Router> enable
+Router#
+```
+
+Przejście do trybu konfiguracji
+
+```shell
+Router# configure terminal
+Router(config)#
+```
