@@ -17,6 +17,7 @@ dir flash:
 boot flash:/plik_obrazu_IOS.bin
 boot disk0:/plik_obrazu_IOS.bin
 boot slot0:/plik_obrazu_IOS.bin
+boot usb:/plik_obrazu_IOS.bin
 ```
 
 gdzie `slot0` lub `disk0` to gniazda kart pamięci (jeśli są obecne w ruterze)
