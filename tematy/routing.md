@@ -19,9 +19,9 @@ Router(config)# ip route 0.0.0.0 0.0.0.0 100.100.102.1
 
 ![Sieć](../images/img1.gif)
 
+Aby połączyć się z `Router A` z `Johny`, w `B` ustawiamy: 
+
 ```shell
 Router(config)# ip route 192.168.3.0 255.255.255.0 192.168.2.2
-
-Router(config)# ip route 192.168.3.0 255.255.255.0 192.168.1.1
 ```
 
