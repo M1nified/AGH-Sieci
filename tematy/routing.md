@@ -4,6 +4,9 @@
 Router(config)# ip routing
 Router(config)# ip classless
 
+Router(config)# ip route adresstatyczny maskategoadresu
+adresInterfejsuRuteraOsciennegoNaKtóryWysyłamy
+
 Router(config)# ip route <siec_docelowa> <maska_sieci_docelowej> <interfejst_nastepnego_rutera_w_sieci_bezposrednio_podlaczonej_na_ktory_nalezy_wyslac_pakiet_do_sieci_(siec_docelowa)>
 
 Router(config)# ip route <network> <mask> <gateway>
